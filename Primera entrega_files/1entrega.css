@@ -1,0 +1,22 @@
+
+
+
+#body {
+    margin: 0;
+}
+
+#body_header {
+    background: skyblue;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+section.header__section {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background: white;
+    position: absolute;
+    right: 10px;
+}
