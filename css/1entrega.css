@@ -1,0 +1,65 @@
+
+@font-face {
+    font-family: space;
+    src: url('./fonts/space.ttf');
+}
+
+#body {
+    margin: 0;
+}
+
+#body_header {
+    background: #5A5A5A;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+
+section.header__section {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background: white;
+    position: absolute;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+
+.login-menu{
+    display: none;
+    position: absolute;
+    background-color: orange;
+    width: 9rem;
+    height: 19rem;
+    margin: 21rem 11.5rem 0 0;
+}
+
+h1#header-logo {
+    font-family: space;
+    margin: 0;
+    font-size: 5rem;
+}
+
+section.header__2section {
+    margin-left: 15px;
+}
+
+img {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
