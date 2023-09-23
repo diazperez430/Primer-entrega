@@ -8,8 +8,6 @@
 </head>
 <body>
    
-    
-
         <button class="acordeon">Ciudad</button>
         <section class="panel">
     
@@ -18,46 +16,59 @@
                 <label for="city1">Bogotá</label>
 
                 <input type="checkbox" id="city2" name="city2" value="Medellín" >
-                <label for="city1">Medellín</label>
+                <label for="city2">Medellín</label>
 
                 <input type="checkbox" id="city3" name="city3" value="Bucaramanga" >
-                <label for="city1">Bucaramanga</label>
+                <label for="city3">Bucaramanga</label>
 
                 <input type="checkbox" id="city4" name="city4" value="Tunja" >
-                <label for="city1">Tunja</label>
+                <label for="city4">Tunja</label>
 
                 <input type="checkbox" id="city5" name="city5" value="Barranquilla" >
-                <label for="city1">Barranquilla</label>
+                <label for="city5">Barranquilla</label>
 
                 <input type="checkbox" id="city6" name="city6" value="Cartagena" >
-                <label for="city1">Cartagena</label>
+                <label for="city6">Cartagena</label>
 
                 <input type="checkbox" id="city7" name="city7" value="Santa Marta" >
-                <label for="city1">Santa Marta</label>
+                <label for="city7">Santa Marta</label>
 
                 <input type="checkbox" id="city8" name="city8" value="Cali" >
-                <label for="city1">Cali</label>
+                <label for="city8">Cali</label>
 
                 <input type="checkbox" id="city9" name="city9" value="Villavicencio" >
-                <label for="city1">Villavicencio</label>
+                <label for="city9">Villavicencio</label>
             
         </section>
 
-
-    <script>
+        <button class="acordeon">Experiencia</button>
+        <section class="panel">
     
-    let elementosAcordeon = document.getElementsByClassName("acordeon");
-    
-    for (let i = 0; i<elementosAcordeon.length;i++){
-    elementosAcordeon[i].addEventListener("click", function(){
-        this.classList.toggle("active");
-        let panel=this.nextElementSibling;
-        if (panel.style.display == "block"){
-            panel.style.display = "none";
-        }
-        else {panel.style.display = "block";}})}
 
-    </script>
+                <input type="checkbox" id="anios0" name="anios0" value="Menos de un año" >
+                <label for="anios0">Menos de 1 año</label>
+
+                <input type="checkbox" id="anios1" name="anios1" value="1 año" >
+                <label for="anios1">1 año</label>
+
+                <input type="checkbox" id="anios2" name="anios2" value="2 años" >
+                <label for="anios2">2 años</label>
+
+                <input type="checkbox" id="anios3" name="anios3" value="3 años" >
+                <label for="anios3">3 años</label>
+
+                <input type="checkbox" id="anios4" name="anios4" value="4 años" >
+                <label for="anios4">4 años</label>
+
+                <input type="checkbox" id="anios5" name="anios5" value="5 años" >
+                <label for="anios5">5 años</label>
+
+                <input type="checkbox" id="masanios" name="masanios" value="Mas 6 años">
+                <label for="masanios">Mas de 6 años</label>
+            
+        </section>
+
+    <script src="/JavaScript/project.js"> </script>
     
 </body>
 </html>
