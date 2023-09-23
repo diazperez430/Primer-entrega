@@ -3,28 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/1entrega.css">
-    <title>Primera entrega</title>
+    <link rel="stylesheet" href="/css/1entrega.css"><link/>
+    <title>Document</title>
 </head>
-<body id="body">
+<body>
+   
+    
 
-    <header id="body_header">
-        
-            <section class="header__section">
-                <img clas="section-img" src="/images/Profile5.png" alt="profile">
-            </section>
-        
+        <button class="acordeon">Ciudad</button>
+        <section class="panel">
+    
 
-        <section class="header__2section">
-            <h1 id="header-logo"> D'Link </h1>
+                <input type="checkbox" id="city1" name="city1" value="Bogotá" >
+                <label for="city1">Bogotá</label>
+
+                <input type="checkbox" id="city2" name="city2" value="Medellín" >
+                <label for="city1">Medellín</label>
+
+                <input type="checkbox" id="city3" name="city3" value="Bucaramanga" >
+                <label for="city1">Bucaramanga</label>
+
+                <input type="checkbox" id="city4" name="city4" value="Tunja" >
+                <label for="city1">Tunja</label>
+
+                <input type="checkbox" id="city5" name="city5" value="Barranquilla" >
+                <label for="city1">Barranquilla</label>
+
+                <input type="checkbox" id="city6" name="city6" value="Cartagena" >
+                <label for="city1">Cartagena</label>
+
+                <input type="checkbox" id="city7" name="city7" value="Santa Marta" >
+                <label for="city1">Santa Marta</label>
+
+                <input type="checkbox" id="city8" name="city8" value="Cali" >
+                <label for="city1">Cali</label>
+
+                <input type="checkbox" id="city9" name="city9" value="Villavicencio" >
+                <label for="city1">Villavicencio</label>
+            
         </section>
-        
 
-    </header>
 
-    <section class="body_section">
+    <script>
+    
+    let elementosAcordeon = document.getElementsByClassName("acordeon");
+    
+    for (let i = 0; i<elementosAcordeon.length;i++){
+    elementosAcordeon[i].addEventListener("click", function(){
+        this.classList.toggle("active");
+        let panel=this.nextElementSibling;
+        if (panel.style.display == "block"){
+            panel.style.display = "none";
+        }
+        else {panel.style.display = "block";}})}
 
-    </section>
+    </script>
     
 </body>
 </html>
