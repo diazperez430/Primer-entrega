@@ -5,20 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/1entrega.css">
-    <title>Primera entrega</title>
+    <link rel="icon" type="image/css" href="./images/title.png">
+    <title>D'link</title>
 </head>
 
-<body id="body">
-
-    <header id="body_header">
-
-        <section class="header__section">
-            <img onclick="profDisp()" class="section-img" src="/images/Profile5.png" alt="profile">
-            <div id="profileph" class="login-menu">a</div>
+<body>
+    <header>
+        <section class="banner-left">
+            <img src="./images/menu.jpg" alt="menu" class="menu-icon">
+            <h1 class="logo"> D'Link </h1>
         </section>
 
-        <section class="header__2section">
-            <h1 id="header-logo"> D'Link </h1>
+        <section class="header__section">
+            <img onclick="profDisp()" class="section-img" src="/images/profile.png" alt="profile">
+            <div id="profileph" class="login-menu">
+              <button>Registrarse</button>
+              <button>Iniciar Sesion</button>
+            </div>
         </section>
 
     </header>
@@ -32,11 +35,11 @@
 
         function profDisp() {
 
-            if (icon.style.display == "block") {
+            if (icon.style.display == "flex") {
                 icon.style.display = "none";
             }
             else {
-                icon.style.display = "block";
+                icon.style.display = "flex";
             }
 
 

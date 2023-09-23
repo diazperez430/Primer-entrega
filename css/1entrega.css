@@ -4,23 +4,23 @@
     src: url('./fonts/space.ttf');
 }
 
-#body {
+body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#body_header {
+header {
     background: #5A5A5A;
-    height: 55px;
+    height: 5rem;
     display: flex;
     align-items: center;
 }
 
 
-section.header__section {
+.header__section {
     border-radius: 50%;
     width: 45px;
     height: 45px;
-    background: white;
     position: absolute;
     right: 10px;
     display: flex;
@@ -28,34 +28,41 @@ section.header__section {
     align-items: center;
 }
 
-button, input[type="submit"], input[type="reset"] {
+button{
 	background: none;
 	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
+	border: black solid;
+    border-width: 1px;
+	padding: 19.2px;
 	cursor: pointer;
 	outline: inherit;
 }
 
-
 .login-menu{
     display: none;
+    flex-direction: column;
     position: absolute;
-    background-color: orange;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
     width: 9rem;
-    height: 19rem;
-    margin: 21rem 11.5rem 0 0;
+    height: 7rem;
+    margin: 8.7rem 11.4rem 0 0;
 }
 
-h1#header-logo {
-    font-family: space;
-    margin: 0;
-    font-size: 5rem;
-}
-
-section.header__2section {
+.banner-left{
+    display: flex;
     margin-left: 15px;
+}
+
+.menu-icon{
+  margin: auto;
+  padding-right: 10px;
+}
+
+.logo {
+    font-family: space;
+    font-size: 5rem;
+    padding-bottom: 13px;
 }
 
 img {
