@@ -1,7 +1,7 @@
-
 main {
-    display:flex
+    display: flex
 }
+
 .rg-box {
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@ main {
     padding: 5rem 0;
 }
 
-button{
+button {
     border: none;
 }
 
@@ -26,8 +26,9 @@ button{
     padding: 20px;
     font-size: 16px;
     height: 5rem;
-
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .acordeon:hover {
@@ -98,3 +99,87 @@ input {
     justify-content: center;
 }
 
+@media (max-width:1366px) {
+
+    .acordeon {
+        width: 70rem;
+    }
+
+}
+
+@media (max-width:1200px) {
+
+    .acordeon {
+
+        width: 50rem;
+
+    }
+
+}
+
+@media (max-width:1050px) {
+
+    .acordeon {
+
+        width: 40rem;
+
+    }
+
+}
+
+@media (max-width:850px) {
+
+    .acordeon {
+
+        width: 30rem;
+        font-size: 15px;
+
+    }
+
+}
+
+@media (max-width:700px) {
+
+    .acordeon {
+
+        width: 20rem;
+
+    }
+
+
+}
+
+@media (max-width:430px) {
+
+    .acordeon {
+
+        width: 15rem;
+        font-size: 10px;
+        height: 50px;
+    }
+
+    header {
+        justify-content: center;
+        height: 50px
+    }
+    .rg-box{
+        justify-content: space-evenly;
+    }
+
+}
+
+@media (max-width:320px) {
+
+    .acordeon {
+
+        width: 10rem;
+        font-size: 10px;
+        height: 50px;
+    }
+
+    header {
+        justify-content: center;
+        height: 50px
+    }
+
+}
