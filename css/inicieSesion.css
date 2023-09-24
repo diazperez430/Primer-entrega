@@ -1,0 +1,45 @@
+.sesion {
+    display: flex;
+    background-color: #c1e1c1;
+    margin: 150px 400px;
+    justify-content: center;
+    padding: 25px 0 0 0;
+    border-radius: 50px;
+}
+
+.sesion_button {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}
+
+.iniciar-button {
+    background-color: #F2eee2;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+}
+
+.olvidoContrasena {
+    display: flex;
+    justify-content: center;
+}
+
+.Session_Nueva {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button.Cuenta-Nueva {
+    background-color: #F7BD56;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    margin: 5px 0 20px 0;
+}
