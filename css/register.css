@@ -1,0 +1,95 @@
+.rg-box {
+    display: flex;
+    flex-direction: column;
+    width: 96rem;
+    height: 20rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+
+button{
+    border: none;
+}
+
+
+.acordeon {
+    font-weight: 500;
+    border-radius: 7px;
+    background: #c1e1c1;
+    width: 70rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    font-size: 16px;
+    height: 5rem;
+
+
+}
+
+.acordeon:hover {
+    background-color: #81d2c2;
+}
+
+.panel {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: none;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    height: 50vh;
+    width: 40vw;
+    align-items: center;
+    justify-content: space-between;
+}
+
+label {
+    display: block;
+    width: 50px;
+}
+
+input {
+    display: block;
+    height: 35px;
+    width: 300px;
+    margin: 0.6rem 0;
+}
+
+.form-text {
+    margin: 20px 0;
+    height: 65px;
+    width: 402px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+}
+
+.form-text-select {
+    height: 65px;
+    width: 402px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+.select {
+    display: flex;
+    height: 65px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+}

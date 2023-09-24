@@ -4,10 +4,10 @@ for (let i = 0; i < elementosAcordeon.length; i++) {
     elementosAcordeon[i].addEventListener("click", function () {
         this.classList.toggle("active");
         let panel = this.nextElementSibling;
-        if (panel.style.display == "block") {
+        if (panel.style.display == "flex") {
             panel.style.display = "none";
         }
-        else { panel.style.display = "block"; }
+        else { panel.style.display = "flex"; }
     })
 }
 
