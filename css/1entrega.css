@@ -28,6 +28,11 @@ header {
     align-items: center;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 button{
 	background: none;
 	color: inherit;
@@ -36,6 +41,7 @@ button{
 	padding: 19.2px;
 	cursor: pointer;
 	outline: inherit;
+    width: 9rem;
 }
 
 .login-menu{
