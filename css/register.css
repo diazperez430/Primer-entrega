@@ -1,7 +1,11 @@
+
+main {
+    display:flex
+}
 .rg-box {
     display: flex;
     flex-direction: column;
-    width: 96rem;
+    width: 100%;
     height: 20rem;
     align-items: center;
     justify-content: space-between;
@@ -93,3 +97,4 @@ input {
     align-items: center;
     justify-content: center;
 }
+
