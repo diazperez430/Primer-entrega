@@ -1,10 +1,18 @@
+.sessionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32rem;
+}
+
 .sesion {
     display: flex;
     background-color: #c1e1c1;
-    margin: 150px 400px;
     justify-content: center;
     padding: 25px 0 0 0;
     border-radius: 50px;
+    width: 30rem;
+    
 }
 
 .sesion_button {
@@ -43,3 +51,133 @@ button.Cuenta-Nueva {
     height: 35px;
     margin: 5px 0 20px 0;
 }
+
+@media (max-width:1328px){
+
+    .sessionContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 32rem;
+    }
+
+
+}
+
+@media (max-width:600px){
+
+    .sessionContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 26rem;
+    }
+
+    .sesion {
+        display: flex;
+        background-color: #c1e1c1;
+        justify-content: center;
+        padding: 25px 0 0 0;
+        border-radius: 50px;
+        width: 20rem;
+    }
+
+    #emailorphone {
+        width: 15rem;
+    }
+
+    #password {
+        width: 15rem;
+    }
+
+
+}
+
+@media (max-width:600px){
+
+    .sessionContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 26rem;
+    }
+
+    .sesion {
+        display: flex;
+        background-color: #c1e1c1;
+        justify-content: center;
+        padding: 25px 0 0 0;
+        border-radius: 50px;
+        width: 20rem;
+    }
+
+    #emailorphone {
+        width: 15rem;
+    }
+
+    #password {
+        width: 15rem;
+    }
+
+
+}
+
+
+@media (max-width:600px){
+
+    .sessionContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 26rem;
+    }
+
+    .sesion {
+        display: flex;
+        background-color: #c1e1c1;
+        justify-content: center;
+        padding: 25px 0 0 0;
+        border-radius: 50px;
+        width: 20rem;
+    }
+
+    #emailorphone {
+        width: 15rem;
+    }
+
+    #password {
+        width: 15rem;
+    }
+
+
+}
+
+@media (max-width:480px){
+
+    .sessionContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 26rem;
+    }
+
+    .sesion {
+        display: flex;
+        background-color: #c1e1c1;
+        justify-content: center;
+        padding: 25px 0 0 0;
+        border-radius: 25px;
+        width: 15rem;
+    }
+
+    #emailorphone {
+        width: 10rem;
+    }
+
+    #password {
+        width: 10rem;
+    }
+
+
+}
+
