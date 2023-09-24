@@ -3,6 +3,10 @@
     src: url('./fonts/space.ttf');
 }
 
+main{
+    height: 2000px;
+}
+
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -49,7 +53,7 @@ button {
     flex-direction: column;
     position: absolute;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: white;
+    background-color: #F2eee2;
     width: 9rem;
     height: 7rem;
     margin: 8.7rem 11.4rem 0 0;
