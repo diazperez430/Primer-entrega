@@ -1,7 +1,14 @@
 section.backArrow {
     position: absolute;
     right: 15px;
+    
 }
+
+.Arrow {
+    width: 50px;
+    height: 50px;
+}
+
 
 main {
     display: flex
@@ -141,6 +148,11 @@ input {
 
     }
 
+    .Arrow {
+        width: 40px;
+        height: 40px;
+    }
+
 }
 
 @media (max-width:700px) {
@@ -164,14 +176,14 @@ input {
     }
 
     header {
-        justify-content: center;
+    
         height: 50px
     }
     
 
 }
 
-@media (max-width:320px) {
+@media (max-width:310px) {
 
     .acordeon {
 
@@ -181,8 +193,11 @@ input {
     }
 
     header {
-        justify-content: center;
         height: 50px
     }
 
+    .Arrow {
+        width: 30px;
+        height: 30px;
+    }
 }
