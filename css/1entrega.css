@@ -33,26 +33,26 @@ a {
     color: inherit;
 }
 
-button {
-    background: none;
-    color: inherit;
-    border: black solid;
-    border-width: 1px;
+.login-menu-button {
+    background-color: #c1e1c1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 19.2px;
     cursor: pointer;
     outline: inherit;
     width: 9rem;
+    border: none;
+    border-radius: 7px;
+    margin: 2px 0;
 }
 
 .login-menu {
     display: none;
     flex-direction: column;
     position: absolute;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: white;
     width: 9rem;
     height: 7rem;
     margin: 8.7rem 11.4rem 0 0;
+    z-index: 3;
 }
 
 .banner-left {
@@ -87,7 +87,6 @@ button {
     display: flex;
     max-width: 1600px;
     position: relative;
-    left: 17%;
     flex-wrap: wrap;
 }
 
@@ -148,7 +147,7 @@ button {
     display: inline-block;
     margin-right: 20px;
     margin-bottom: 20px;
-    width: 400px;
+    width: 315px;
     >.front,
     >.back {
       display: block;
