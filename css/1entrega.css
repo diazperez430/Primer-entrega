@@ -168,4 +168,10 @@ a {
     }
 }
 
+@media (max-width: 850px){
+    .logo {
+        font-size: 3rem;
+        margin: 5px 0 0 0;
+    }
+}
 
