@@ -83,11 +83,12 @@ a {
 
 
 .card-box{
-    margin: 20px;
+    margin: 30px 0 0 0;
     display: flex;
     max-width: 1600px;
     position: relative;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 
