@@ -63,7 +63,7 @@ button {
     flex-direction: column;
     justify-self: center;
     height: 50vh;
-    width: 40vw;
+    /* width: 40vw; */
     align-items: center;
     justify-content: space-between;
 }
@@ -80,9 +80,16 @@ input {
     margin: 0.6rem 0;
 }
 
+#select{
+    display: block;
+    height: 35px;
+    width:300px;
+    margin:0.6rem 0
+}
+
 .form-text {
-    margin: 20px 0;
-    height: 65px;
+    /* margin: 20px 0;
+    height: 65px; */
     width: 402px;
     display: flex;
     align-items: center;
@@ -163,6 +170,10 @@ input {
 
     }
 
+    .form-text{
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
